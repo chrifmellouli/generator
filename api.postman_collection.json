@@ -1,0 +1,31 @@
+{
+	"variables": [],
+	"info": {
+		"name": "api",
+		"_postman_id": "3e86b365-149d-2b5c-d829-e7e2410dc81a",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/api/generate/jean-jack/michel-mark legou/internal/external/fr",
+			"request": {
+				"url": "localhost:8080/api/generate/jean-jack/michel-mark legou/internal/external/fr",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"input1\":\"jean-michel\",\n\t\"input2\":\"micehl-mark leboubou\",\n\t\"input3\":\"internal\",\n\t\"input4\":\"xternal\",\n\t\"input5\":\"fr\"\n}"
+				},
+				"description": "generate-mail"
+			},
+			"response": []
+		}
+	]
+}
